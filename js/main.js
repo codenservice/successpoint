@@ -51,7 +51,7 @@ function scrollFunction() {
 }
 
 
-$('.counter-count').each(function () {
+$('.cont').each(function () {
         $(this).prop('Counter',0).animate({
             Counter: $(this).text()
         }, {

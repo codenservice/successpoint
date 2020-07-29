@@ -29,6 +29,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .text-faded{
     color:rgba(255,255,255,.7);
+    font-size: 17px;
+    text-align: justify !important;
+    color:rgba(255,255,255,.7);
  
 }
 .text-faded1
@@ -151,10 +154,11 @@ img::-moz-selection{
 header.masthead{
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/header.jpg);
+    background-image:url(../img/aboutus.jpg);
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
+    filter: brightness(45%);
 }
 header.masthead hr{
     margin-top:30px;
@@ -716,10 +720,11 @@ img::-moz-selection{
 header.masthead{
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/header.jpg);
+    background-image:url(../img/aboutus.jpg);
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
+    border-bottom: 3px solid darkcyan;
 }
 header.masthead hr{
     margin-top:30px;
@@ -738,8 +743,8 @@ header.masthead p{
 }
 @media (min-width:992px){
     header.masthead{
-        height:100vh;
-        min-height:650px;
+        height:40vh;
+        min-height:150px;
         padding-top:0;
         padding-bottom:0
     }
@@ -1087,4 +1092,48 @@ ul.dropdown-menu>li>a
 .counter-box.colored i,
 .counter-box.colored .counter {
     color: #fff
+}
+.title-box {
+    display: table;
+    width: 100%;
+}
+.title-box .page-title-heading, .breadcrumb-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.page-title-heading h1 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 47px;
+    line-height: 50px;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.breadcrumb-wrapper {
+    text-align: left;
+}
+.breadcrumb-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.breadcrumb-wrapper .container {
+    padding-right: 0;
+}
+.breadcrumb-wrapper .breadcrumb-wrapper-inner {
+    background-color: rgba(255,255,255,.03);
+    padding: 15px;
+    display: inline-block;
+}
+.breadcrumb-wrapper a, .breadcrumb-wrapper span {
+    font-family: "Ubuntu",Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 19px;
+}
+.breadcrumb-wrapper {
+    text-align: left;
 }
