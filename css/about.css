@@ -29,14 +29,14 @@ h1,h2,h3,h4,h5,h6{
 }
 .text-faded{
     color:rgba(255,255,255,.7);
-    font-size: 17px;
+    font-size: 19px;
     text-align: justify !important;
     color:rgba(255,255,255,.7);
  
 }
 .text-faded1
 {
-    font-size: 17px;
+    font-size: 19px;
     text-align: justify !important;
     color:rgba(255,255,255,.7);
 
@@ -69,7 +69,7 @@ img::-moz-selection{
     color:#fff;
     background:0 0
 }
-#mainNav{
+/* #mainNav{
     border-bottom:1px solid rgba(33,37,41,.1);
     background-color:#fff;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;-webkit-transition:all .2s;transition:all .2s
@@ -150,7 +150,7 @@ img::-moz-selection{
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
         color:darkcyan
     }
-}
+} */
 header.masthead{
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
@@ -158,7 +158,7 @@ header.masthead{
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
-    filter: brightness(45%);
+    /* filter: brightness(45%); */
 }
 header.masthead hr{
     margin-top:30px;
@@ -565,7 +565,7 @@ body.grd1:focus {
     color: #ffffff !important;
     background: #eea412;
 }
-.dropdown-menu>li>a{
+/* .dropdown-menu>li>a{
 color:white !important;
 }
 .dropdown-menu{
@@ -584,7 +584,7 @@ color:white !important;
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
-}
+} */
 .bg-dark1
 {
 background: linear-gradient(-90deg, #69c1c3, #1d977c);
@@ -652,7 +652,7 @@ img::-moz-selection{
     color:#fff;
     background:0 0
 }
-#mainNav{
+/* #mainNav{
     border-bottom:1px solid rgba(33,37,41,.1);
     background-color:#fff;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;-webkit-transition:all .2s;transition:all .2s
@@ -683,7 +683,7 @@ img::-moz-selection{
 }
 @media (min-width:992px){
     #mainNav{border-color:transparent;
-        background-color:transparent
+        background-color:white
     }
     #mainNav .navbar-brand{
         color:rgba(255,255,255,.7)
@@ -695,10 +695,10 @@ img::-moz-selection{
         padding:.5rem 1rem
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
-        color:rgba(255,255,255,.7)
+        color:black;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{
-        color:#fff
+        color:darkcyan
     }
     #mainNav.navbar-shrink{
         border-bottom:1px solid rgba(33,37,41,.1);
@@ -716,7 +716,7 @@ img::-moz-selection{
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
         color:darkcyan
     }
-}
+} */
 header.masthead{
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
@@ -743,7 +743,7 @@ header.masthead p{
 }
 @media (min-width:992px){
     header.masthead{
-        height:40vh;
+        height:25vh;
         min-height:150px;
         padding-top:0;
         padding-bottom:0
@@ -1096,6 +1096,7 @@ ul.dropdown-menu>li>a
 .title-box {
     display: table;
     width: 100%;
+    margin-top: 100px;
 }
 .title-box .page-title-heading, .breadcrumb-wrapper {
     display: table-cell;
@@ -1131,9 +1132,31 @@ ul.dropdown-menu>li>a
     font-family: "Ubuntu",Arial,Helvetica,sans-serif;
     font-weight: 400;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 19px;
 }
 .breadcrumb-wrapper {
     text-align: left;
+}
+#services
+{
+    background-color: aliceblue;
+}
+.text-muted
+{
+    font-size: 20px;
+color: #000000a3 !important;
+}
+.marg-5 {
+    margin-top: 5px;
+    background-color: darkcyan;
+    border-bottom: 5px solid rebeccapurple;
+}
+#btnclsfoot,#btnopnfoot
+{
+color:white;
+
+font-weight: 900;
+
+font-size: 18px;
 }

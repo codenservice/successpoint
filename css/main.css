@@ -1088,3 +1088,17 @@ ul.dropdown-menu>li>a
 .counter-box.colored .counter {
     color: #fff
 }
+.marg-5 {
+    margin-top: 5px;
+    background-color: darkcyan;
+    border-bottom: 5px solid rebeccapurple;
+}
+#btnclsfoot,#btnopnfoot
+{
+color:white;
+
+font-weight: 900;
+
+font-size: 18px;
+}
+
