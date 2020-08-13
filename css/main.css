@@ -1102,3 +1102,56 @@ font-weight: 900;
 font-size: 18px;
 }
 
+/* contactus */
+.counter-box {
+    display: block;
+    background: #332f2f4f;
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #1a1717a6;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.counter-box i {
+    font-size: 45px;
+    margin: 0 0 15px;
+    color:#1a1717a6;
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
+}
+
+.counter-box.colored {
+    background: #3acf87
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
+}
+.marg-5 {
+    margin-top: 5px;
+    background-color: darkcyan;
+    border-bottom: 5px solid rebeccapurple;
+}
+#btnclsfoot,#btnopnfoot
+{
+color:white;
+
+font-weight: 900;
+
+font-size: 18px;
+}
+
