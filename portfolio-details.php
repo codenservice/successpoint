@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-
-</head>
-<body>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Our Services</title>
@@ -25,24 +22,16 @@
 
 <!-- Template Main CSS File -->
 <link href="css/portfolio.css" rel="stylesheet">
-<link href="css/about.css" rel="stylesheet">
-
 
 </head>
 <body>
 
-<div class="main-block1">
-<?php
-include_once('header.php');
-    ?>
-    </div>
-
  <section id="services" class="services section-bg serve-con">
-      <div class="container">
+      <div class="container" style="height:250px;">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+<!--          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
         </div>
 
       </div>
@@ -158,21 +147,6 @@ include_once('header.php');
       </div>
     </section><!-- End F.A.Q Section -->
 
-    <div class="col-sm-12 text-center marg-5">
-      <a class="footer-wht-text fnt18" id="btnclsfoot">Close Footer <i class="fa fa-angle-up"></i></a>
-      <a class="footer-wht-text fnt18" id="btnopnfoot" style="display:none;">Open Footer <i class="fa fa-angle-down"></i></a>
-  </div>
-   <div id="footer">
-
-   <?php
-include_once('footer.php');
-    ?>
-   </div>
-
-    <a href="#page-top" id="top">
-      <img src="img/top.png" />
-    </a>
-  </div>
       <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -183,8 +157,6 @@ include_once('footer.php');
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
                 
-  <script src="js/main.js"></script>
-  <script src="js/include.js"></script>
               
   <script src="js/main.js"></script>
 </body>       
